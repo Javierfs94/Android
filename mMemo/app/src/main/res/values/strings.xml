@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">mMemo</string>
+    <string name="jugar">jugar</string>
+    <string name="exit">exit</string>
+    <string name="puntuacion">Puntuación</string>
+    <string name="reset">Reset</string>
+    <string name="nombre">Examen realizado por Francisco Javier Frías Serrano</string>
+</resources>

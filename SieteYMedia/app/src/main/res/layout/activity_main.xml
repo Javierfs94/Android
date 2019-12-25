@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/carta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/c1" />
+
+    <TextView
+        android:id="@+id/puntos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Puntuación: 0"
+        android:textSize="36dp" />
+    <TextView
+        android:id="@+id/puntosMqn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="36dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_sacarcarta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="sacaCarta"
+            android:text="Sacar Carta" />
+
+        <Button
+            android:id="@+id/btn_plantarse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="plantarse"
+            android:text="Plantarse" />
+
+        <Button
+            android:id="@+id/btn_reinicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="reiniciar"
+            android:text="Reiniciar" />
+    </LinearLayout>
+</LinearLayout>

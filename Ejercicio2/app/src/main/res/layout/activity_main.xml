@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:padding="5dp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="5dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/mezquita" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La mezquita se compone de tres partes: el Patio de los Naranjos (conserva buena parte de su aspecto original), al que se accede por la Puerta del Perdón, de estilo mudéjar (1377), en donde se observan las hileras de naranjos y palmeras, de las fuentes y los arcos de herradura que lo rodean junto a la puerta se levanta el alminar desmochado parcialmente y rodeado, a principios del siglo XVII, de un «encofrado» de estilo herreriano.  La superficie total del monumento es de más de 22.000 metros cuadrados, con una longitud de 174 metros de largo y 128,4 de largo   Interior de la Mezquita. La puerta de Las Palmas da acceso a la mezquita: un bosque de ochocientas cincuenta columnas de mármol, jaspe y granito sobre las que se apoyan trescientos sesenta y cinco arcos de herradura bicolores, da la medida del esplendor del arte de los califas en su apogeo. El mihrab, lugar santo de la mezquita que señala la dirección Sur y no la de La Meca, de acuerdo con la voluntad de Abderramán (hacia el río porque le llevaba hasta su Damasco natal). Esta es una de las hipótesis, pero hoy día está más aceptada la teoría de que la nave principal de la mezquita sigue la orientación de la calle principal (cardo) de la antigua Córdoba Romana (Colonia Patricia), como se ha atestiguado en las excavaciones arqueológicas realizadas en la ciudad. El mihrab, es un joyel de mármol, estuco y mosaicos bizantinos brillantemente coloreados sobre fondo de oro.  En el Lucernario se conservan los arcos lobulados de los muros y la cúpula. En la cabecera destacan los arcos, los mosaicos del muro y la estructura y decoración de las cúpulas a base de arcos cruzados.  Tras la conquista de Córdoba por los cristianos, éstos utilizaron la mezquita para celebrar su culto, pero en el siglo XVI, cuando el Islam fue definitivamente expulsado de la península Ibérica, los vencedores quisieron adecuarla a sus creencias: construyeron una catedral renacentista, a cargo de Hernán Ruiz I, y luego, de su hijo, en pleno corazón de la mezquita, alterando la perspectiva original." />
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
