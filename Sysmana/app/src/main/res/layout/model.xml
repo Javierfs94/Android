@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="10dp"
+
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/movieImage"
+            android:layout_width="238dp"
+            android:layout_height="137dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="46dp"
+            android:layout_marginEnd="76dp"
+            android:layout_marginRight="76dp"
+            android:padding="10dp"
+            android:src="@drawable/lunes1" />
+
+        <TextView
+            android:id="@+id/nameTxt"
+            android:layout_width="270dp"
+            android:layout_height="67dp"
+            android:layout_below="@+id/movieImage"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="-2dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/descTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameTxt"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="-3dp"
+            android:layout_marginTop="48dp"
+            android:gravity="center|center_vertical"
+            android:padding="10dp"
+            android:text="Lorem fistrum fistro va usté muy cargadoo apetecan. Ese hombree llevame al sircoo pupita a gramenawer sexuarl caballo blanco caballo negroorl ese pedazo de me cago en tus muelas a gramenawer sexuarl. Benemeritaar pecador me cago en tus muelas está la cosa muy malar apetecan. Hasta luego Lucas de la pradera ese hombree pecador ese que llega. Qué dise usteer te va a hasé pupitaa qué dise usteer se calle ustée la caidita. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ponTxt"
+            android:layout_width="392dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameTxt"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="0dp"
+            android:padding="5dp"
+            android:text="Ponente"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/posTxt"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/movieImage"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="-182dp"
+
+            android:layout_marginRight="2dp"
+            android:padding="10dp"
+            android:text="Hora"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

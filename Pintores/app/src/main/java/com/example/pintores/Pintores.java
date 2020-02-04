@@ -7,7 +7,7 @@ public class Pintores {
     int photoId;
 
     public Pintores(String name, String desc, int photoId) {
-        this.nombre = nombre;
+        this.nombre = name;
         this.desc = desc;
         this.photoId = photoId;
     }
