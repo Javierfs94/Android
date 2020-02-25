@@ -69,12 +69,15 @@ public class MainActivity extends AppCompatActivity {
                 JSONObject jsonObject = new JSONObject(weatherApiDetails);
 
                 String weather = jsonObject.getString("weather");
+                JSONObject wind = jsonObject.getJSONObject("wind");
+                String speed = wind.getString("speed");
 
                 JSONArray arrayWeather = new JSONArray(weather);
 
+
                 String weather_main = "";
                 String weather_description = "";
-
+                String wind_speed = "";
 
                 for (int z = 0; z < arrayWeather.length(); z++) {
                     JSONObject arrayObjectWeather = arrayWeather.getJSONObject(z);
@@ -83,8 +86,9 @@ public class MainActivity extends AppCompatActivity {
                     weather_description = arrayObjectWeather.getString("description");
                 }
 
-                weatherTextView.setText("Main: " + weather_main + "\n" +
-                        "Desc : " + weather_description
+
+                weatherTextView.setText("Estado: " + weather_main + "\n" +
+                        "Descripción : " + weather_description + "\n" + "Velocidad del aire: " + speed
                 );
 
             }
