@@ -74,7 +74,6 @@ public class MainActivity extends AppCompatActivity {
 
                 JSONArray arrayWeather = new JSONArray(weather);
 
-
                 String weather_main = "";
                 String weather_description = "";
                 String wind_speed = "";
@@ -86,11 +85,9 @@ public class MainActivity extends AppCompatActivity {
                     weather_description = arrayObjectWeather.getString("description");
                 }
 
-
                 weatherTextView.setText("Estado: " + weather_main + "\n" +
                         "Descripción : " + weather_description + "\n" + "Velocidad del aire: " + speed
                 );
-
             }
         }catch (Exception e){
             e.printStackTrace();

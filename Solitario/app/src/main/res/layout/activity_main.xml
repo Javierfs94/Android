@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:stretchColumns="*"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/tableRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="@string/n_jugadas"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/cantidadJugadas"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="@string/cant_jugadas"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/tableRow0"
+        style="@style/row"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/f0c0button"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription"
+            android:onClick="pulsado"
+            android:src="@drawable/ficha_roja" />
+
+        <ImageButton
+            android:id="@+id/f0c1button"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription"
+            android:src="@drawable/ficha_roja" />
+
+        <ImageButton
+            android:id="@+id/f0c2button"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        style="@style/row"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/f1c0button"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription"
+            android:src="@drawable/ficha_roja" />
+
+        <ImageButton
+            android:id="@+id/f1c1button"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription"
+            android:src="@drawable/ficha_roja" />
+
+        <ImageButton
+            android:id="@+id/f1c2button"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription"
+            android:src="@drawable/ficha_roja" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        style="@style/row"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/f2c0button"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription"
+            android:src="@drawable/ficha_roja" />
+
+        <ImageButton
+            android:id="@+id/f2c1button"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription"
+            android:src="@drawable/ficha_roja" />
+
+        <ImageButton
+            android:id="@+id/f2c2button"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        style="@style/row"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/f3c0button"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription"
+            android:src="@drawable/ficha_roja" />
+
+        <ImageButton
+            android:id="@+id/f3c1button"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription"
+            android:src="@drawable/ficha_roja" />
+
+        <ImageButton
+            android:id="@+id/f3c2button"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription"
+            android:src="@drawable/ficha_roja" />
+
+    </TableRow>
+
+</TableLayout>

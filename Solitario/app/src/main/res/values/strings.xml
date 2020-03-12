@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Solitario</string>
+    <string name="contentDescription">ficha</string>
+    <string name="n_jugadas">Nº Jugadas</string>
+    <string name="cant_jugadas">¿?</string>
+</resources>
