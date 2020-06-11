@@ -9,9 +9,8 @@ public class Palabra {
     public int yInicial;
     public int dir;
     public String[] palabraArray;
-    public String palabra;
-
     public static String[] arrayPalabras;
+    public String palabra;
 
     public Palabra(){
         Random r = new Random();
@@ -66,39 +65,31 @@ public class Palabra {
 
     public void retrocederDir(){
         switch (this.dir) {
-            case 0:
-                //Abajo arriba
+            case 0: //Abajo arriba
                 this.x += 1;
                 break;
-            case 1:
-                //Izquierda derecha
+            case 1: //Izquierda derecha
                 this.y -= 1;
                 break;
-            case 2:
-                //Arriba abajo
+            case 2: //Arriba abajo
                 this.x -= 1;
                 break;
-            case 3:
-                //Derecha izquierda
+            case 3: //Derecha izquierda
                 this.y += 1;
                 break;
-            case 4:
-                //Abajo izquierda - Arriba derecha
+            case 4: //Abajo izquierda - Arriba derecha
                 this.x += 1;
                 this.y -= 1;
                 break;
-            case 5:
-                //Abajo derecha - Arriba izquierda
+            case 5: //Abajo derecha - Arriba izquierda
                 this.x += 1;
                 this.y += 1;
                 break;
-            case 6:
-                //Arriba izquierda - Abajo derecha
+            case 6: //Arriba izquierda - Abajo derecha
                 this.x -= 1;
                 this.y -= 1;
                 break;
-            case 7:
-                //Arriba derecha - Abajo izquierda
+            case 7: //Arriba derecha - Abajo izquierda
                 this.x -= 1;
                 this.y += 1;
                 break;
